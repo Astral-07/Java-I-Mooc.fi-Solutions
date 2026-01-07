@@ -8,13 +8,13 @@ public class AreWeThereYet {
         while (true) {
             System.out.println("Give a number:");
 
-            int num1 = Integer.valueOf(scanner.nextLine());
+            int number = Integer.valueOf(scanner.nextLine());
 
-            if (num1 == 4) {
+            if (number == 4) {
                 break;
             }
 
-            System.out.println(num1);
+            System.out.println(number);
         }
     }
 }
