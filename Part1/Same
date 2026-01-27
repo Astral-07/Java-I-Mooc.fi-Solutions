@@ -7,10 +7,10 @@ public class Same {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here.
-        String string1 = scan.nextLine();
-        String string2 = scan.nextLine();
+        String stringFirst = scan.nextLine();
+        String stringSecond = scan.nextLine();
 
-        if (string1.equals(string2)) {
+        if (stringFirst.equals(stringSecond)) {
             System.out.println("Same");
         } else {
             System.out.println("Different");
