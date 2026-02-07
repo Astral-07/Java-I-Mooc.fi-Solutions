@@ -26,6 +26,7 @@ public class IndexOfSmallest {
             }
         }
         System.out.println("Smallest number: " + smallest);
+
         // and its index -- the smallest number
 
         for (int j = 0; j < list.size(); j++) {
