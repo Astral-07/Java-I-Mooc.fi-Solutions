@@ -6,7 +6,6 @@ public class NumberAndSumOfNumbers {
         Scanner scanner = new Scanner(System.in);
 
         int inputs = 0;
-
         int sum = 0;
 
         while (true) {
