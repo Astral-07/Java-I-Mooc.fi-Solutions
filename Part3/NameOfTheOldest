@@ -6,7 +6,9 @@ public class NameOfTheOldest {
         Scanner scanner = new Scanner(System.in);
 
         int oldest = 0;
+
         String name = "";
+
         while (true) {
             String input = scanner.nextLine();
             if (input.equals("")) {
