@@ -13,6 +13,7 @@ public class AgeOfTheOldest {
             }
 
             String[] parts = input.split(",");
+
             int age = Integer.valueOf(parts[1]);
 
             if (age > oldest) {
