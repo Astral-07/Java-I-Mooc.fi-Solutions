@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class PersonalDetails {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String longest = "";
+        int sum = 0;
+        int count = 0;
+        double average = 0;
+        
+        while (true){
+            String input = scanner.nextLine();
+            if (input.equals("")){
+                break;
+            }
+            String[] parts = input.split(",");
+            
+            if (longest.length()<parts[0].length()){
+                longest = parts[0];
+            }
+
+            int age = Integer.valueOf(parts[1]);
+            sum = sum + age;
+            count++;
+
+            System.out.println(longest);
+            System.out.println((double)sum/count);
+        }
+    }
+}
