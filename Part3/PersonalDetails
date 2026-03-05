@@ -20,7 +20,6 @@ public class PersonalDetails {
             if (longest.length()<parts[0].length()){
                 longest = parts[0];
             }
-
             int age = Integer.valueOf(parts[1]);
             sum = sum + age;
             count++;
