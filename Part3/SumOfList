@@ -15,7 +15,6 @@ public class SumOfAList {
 
             list.add(input);
         }
-
         System.out.println("");
 
         // toteuta listan lukujen summan laskeminen tänne
