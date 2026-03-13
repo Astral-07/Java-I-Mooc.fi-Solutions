@@ -11,7 +11,6 @@ public class PrintInRange {
             if (number >= lowerLimit && number <= upperLimit) {
 
                 System.out.println(number);
-
             }
         }
     }
