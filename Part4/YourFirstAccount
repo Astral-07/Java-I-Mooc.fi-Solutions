@@ -7,5 +7,6 @@ public class YourFirstAccount {
         Account artos100 = new Account("Arto's 100 account", 100);
         artos100.deposit(20);
         System.out.println(artos100);
+
     }
 }
