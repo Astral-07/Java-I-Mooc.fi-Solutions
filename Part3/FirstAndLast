@@ -12,7 +12,6 @@ public class FirstAndLast {
             if (input.equals("")) {
                 break;
             }
-
             list.add(input);
         }
         int index = list.size() - 1;
