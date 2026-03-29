@@ -10,7 +10,6 @@ public class FirstWords {
             if (input.equals("")) {
                 break;
             }
-
             String[] words = input.split(" ");
 
             System.out.println(words[0]);
