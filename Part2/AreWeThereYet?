@@ -13,7 +13,6 @@ public class AreWeThereYet {
             if (number == 4) {
                 break;
             }
-
             System.out.println(number);
         }
     }
