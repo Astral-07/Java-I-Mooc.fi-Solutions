@@ -10,6 +10,7 @@ public class Smallest {
         }
         // don't print anything inside this method
         // there must be a return in the end of the method
+
         return smallest;
     }
 
