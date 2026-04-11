@@ -15,7 +15,6 @@ public class IndexOf {
             list.add(input);
         }
         System.out.println("");
-
         // implement here finding the indices of a number
         System.out.println("Search for?");
         int search = Integer.valueOf(scanner.nextLine());
