@@ -23,6 +23,7 @@ public class PersonalDetails {
             int age = Integer.valueOf(parts[1]);
             sum = sum + age;
             count++;
+
         }
         System.out.println(longest);
         System.out.println((double)sum/count);
