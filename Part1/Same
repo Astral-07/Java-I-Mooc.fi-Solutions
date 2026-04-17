@@ -15,6 +15,5 @@ public class Same {
         } else {
             System.out.println("Different");
         }
-
     }
 }
