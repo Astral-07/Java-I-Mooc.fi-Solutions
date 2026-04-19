@@ -10,6 +10,7 @@ public class Login {
         if (username.equals("alex") && password.equals("sunshine")) {
             System.out.println("You have successfully logged in!");
         }
+
         else if (username.equals("emma") && password.equals("haskell")) {
             System.out.println("You have successfully logged in!");   
         }
