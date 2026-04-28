@@ -13,7 +13,7 @@ public class IndexOf {
                 break;
             }
             list.add(input);
-        }
+        } 
         System.out.println("");
         // implement here finding the indices of a number
         System.out.println("Search for?");
