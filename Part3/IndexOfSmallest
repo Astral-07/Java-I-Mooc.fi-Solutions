@@ -14,7 +14,7 @@ public class IndexOfSmallest {
                 break;
             }
             list.add(input);
-        }
+        } 
 
         // until the user enters 9999
         // after that, the program prints the smallest number
