@@ -13,7 +13,7 @@ public class OnlyTheseNumbers {
                 break;
             }
             numbers.add(number);
-        }
+        } 
         int fromWhere = Integer.valueOf(scanner.nextLine());
         int toWhere = Integer.valueOf(scanner.nextLine());
         for (int i = fromWhere; i <= toWhere; i++) {
