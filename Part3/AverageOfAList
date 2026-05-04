@@ -15,7 +15,7 @@ public class AverageOfAList {
                 break;
             }
             numbers.add(number);
-        }
+        } 
         // Then it computes the average of the numbers on the list
         int sum = 0;
         double average = 0;
