@@ -9,7 +9,7 @@ public class IsItTrue {
 
         if (input.equals("true")){
             System.out.println("You got it right!");
-        } else {
+        } else { 
             System.out.println("Try again!");
         }
     }
