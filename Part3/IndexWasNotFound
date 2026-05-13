@@ -27,7 +27,7 @@ public class IndexWasNotFound {
             } 
             index++;
             if (found == 0) {
-                System.out.println(searching + " was not found.");
+                System.out.println(searching + " was not found."); 
             }
         }
     }
